@@ -35,7 +35,6 @@ exports.handleRedirectShortURL = async (req, res) => {
             })
         
             res.redirect(entry.redirectUrl)
-        
     } catch (err) {
         return res.status(globalConstants.INTERNAL_SERVER_ERROR.Code).json({ message: globalConstants.INTERNAL_SERVER_ERROR.Message })
     }
