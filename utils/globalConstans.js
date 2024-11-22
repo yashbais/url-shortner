@@ -1,5 +1,5 @@
 module.exports = {
-    REQUIRED_INPUT_DATA_MISSING: { Code: 6001, Message: "Required input data is missing" },
+    REQUIRED_INPUT_DATA_MISSING: { Code: 400, Message: "Required input data is missing" },
     SUCCESS_STATUS: { Code: 200, Message: "Success" },
     DELETE_STATUS: { Code: 204, Message: "Deleted successfully" },
     CREATE_STATUS: { Code: 201, Message: "Success" },
